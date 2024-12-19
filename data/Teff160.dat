@@ -1,0 +1,18 @@
+res_1601.dat:#log(hist[i]/hist[j])	Ui-Uj
+res_1601.dat:log	-0.00134493	0	0.341952	0	0.343297	0
+res_1602.dat:#log(hist[i]/hist[j])	Ui-Uj
+res_1602.dat:log	-0.156753	1	0.215423	1	0.372177	0
+res_1603.dat:#log(hist[i]/hist[j])	Ui-Uj
+res_1603.dat:log	-0.281906	2	0.104759	2	0.386666	0
+res_1604.dat:#log(hist[i]/hist[j])	Ui-Uj
+res_1604.dat:log	-0.395866	3	0.00268376	3	0.39855	0
+res_1605.dat:#log(hist[i]/hist[j])	Ui-Uj
+res_1605.dat:log	-0.501957	4	-0.0976636	4	0.404294	0
+res_1606.dat:#log(hist[i]/hist[j])	Ui-Uj
+res_1606.dat:log	-0.576357	5	-0.182901	5	0.393456	0
+res_1607.dat:#log(hist[i]/hist[j])	Ui-Uj
+res_1607.dat:log	-0.65334	6	-0.265299	6	0.388041	0
+res_1608.dat:#log(hist[i]/hist[j])	Ui-Uj
+res_1608.dat:log	-0.708783	7	-0.330577	7	0.378206	0
+res_1609.dat:#log(hist[i]/hist[j])	Ui-Uj
+res_1609.dat:log	-0.766859	8	-0.400062	8	0.366796	0
