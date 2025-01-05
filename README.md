@@ -15,7 +15,7 @@ The workflow is like this:
  (-arg (example value) description) 
 
 
-
+```
 /single_particle_model_sim/single_particle 
 
 -lag (100 200 300 400) lagtime in units of muliple integreation steps dT. Multiple entries possible \
@@ -31,22 +31,25 @@ The workflow is like this:
 -o $o (1000) output identifier\
 -ms (30)  number of microstates\
 -dT (0.00001) integration time step 
-
+````
 
 2. Perform markov check and MFPT/ fpt analysis:  
 
+```
 python MSM_analysis/check_markov.py \
 -o (1000) input identififer \
 -l (200) lagtime to analyse \
 -rc (1) size of stable state in microstates\
 -db (0) enforce detailed balance
+```
 
 3. Reweight two existing models into each other (for analysis) 
 
+```
 python reweighting/reweight_MSM_Sloc.py \
 -i (1000) input identifier reweight from\
 -o (2000) output identifier reweight to \
 -l lagtime of MSM to reweight\
 -rc size of stable stae in microstates 
-
+```
 
