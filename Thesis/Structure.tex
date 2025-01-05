@@ -1,0 +1,151 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%opening
+\title{Workflow "Reweighting Dynamics in Non-Equilibrium Steady States"}
+\author{Marius Bause}
+
+\begin{document}
+
+\maketitle
+
+\section{Structure of Thesis}
+
+\begin{itemize}
+  \item Background
+  \begin{itemize}
+ 
+    \item Molecular Dynamics Simulation
+    \item Off-Equilibrium Dynamics
+    \begin{itemize}
+      \item Stochastic Thermodynamics
+      \item Non-Equilibrium Steady States
+
+      \item Entropy Production 
+      \item Minimal Model for Non-Equilibrium Steady States
+          
+            Needs introduction here for showing steps on MSM. 
+            Fig:  Potential surface 
+    \end{itemize}
+    
+    \item Markov State Modelling
+    \begin{itemize}
+      \item Transfer Operators 
+      \item Markov Property 
+         
+         Fig: lagtime Analysis , relexation analysis (CK test) , 
+      \item Clustering 
+      
+        Fig: Apply PCCA on system, for now and later
+      Mostly PCCA+, because it is used later. 
+      \item First-Passage-Time Distribution
+      
+        Fig: FPTs of states, plot moments vs lagtime  
+      
+      This chapter contains first result about MFPT non-markovian. 
+    \end{itemize}
+  \end{itemize}
+   
+  \item Jaynes Maximum Caliber
+  
+  \begin{itemize}
+    \item Equilibrium Constraints
+    
+       Theory  and Application on statics. 
+       Fig: Show on ISAW Model  
+  
+    \item Non-Equilibrium Steady State Constraints
+  
+      General discussion of changes in Caliber (trajectories, Markov,..)
+    \begin{itemize}
+      \item Theory of Constraints
+      
+        Discussion of local/global, symmetric/asymmetric constraints, general
+        
+      \item Application of Constraints
+
+       Explicitly chosen constraints. Minimisation will be performed 
+       for different set of constraints ( with/without global/+ balance, global/local constraints ).
+       Conclude with final set that will be used in next chapter. Test consistency by 
+       reweighting test. 
+       Include subsection about resulting Invariant and meaning of it
+       
+       Fig:  Single dynamics and statics global entropy productions, repeat for local entropy production, then with global balance (show for all 6 processes), show exactness of enforced entropy production, 
+       Invariant of system
+        
+    \end{itemize}
+    \item  Numerical Minimisation 
+    
+    Discuss numerical algorithm, including all the failed attempts to include the full Caliber. 
+    
+    Fig: Do this later, show non convergence of algorithms (2nd order, full set, basin hopping algorithm, thermodynamic integration, increase order of expansion ). What happens to small system sizes? Result for ms =30? 
+
+  \end{itemize}
+
+    
+  \item Reweighting Dynamics on Potential Surface
+  
+  Full discussion of the final choice of constraints from previous chapter. The discussion 
+  starts here with theortical value of $\Delta S_{ij}$ and $\Delta \Delta S_{ij}$ for each system. 
+  
+  I am not happy with the repetitive mentioning of 'single particle'
+  \begin{itemize}
+    \item Single Particle in 1D Potential Well
+    \item Single Particle under Global Driving
+    \item Single Particle under Local Driving
+    \item Single Particle in 2D Potential Well 
+    
+    Fig: Obvious here,most from publication. Indicate core states
+  \end{itemize}
+  
+  \item Reweighting Dynamics on Free Energy Surface
+  \begin{itemize}
+    \item Single Particle under Global Driving
+    \item Alanine-4-Peptide
+    
+    Fig: stick to style here. Indicate core states, entropy productions in next chapter! 
+    
+  \end{itemize}
+  
+  \item Extensions to Reweighting Scheme 
+  \begin {itemize}
+  
+    \item Local Entropy Production Histograms 
+
+    Compare the entropy production from trajectory analysis, MSM and theory for each model here. 
+    Fig: Histograms of entropy production with indicator for all sytems. 1D representation of Ala4 difference 
+    
+    
+    \item Constructing MSM in Non-Equilibrium Steady States
+    
+    Self Reweighting and discussion of convergence speed for all systems. 
+    Fig: speed of convergence of MFPT/lagtime in equilibrium, MFPT out of equilibrium
+  \end{itemize}
+
+  \item Conclusion
+  
+  \end{itemize}
+
+  
+\section{Timeline}
+Sugggested Timeline. Many Figures and almost all data extist. Most of Jaynes and part of Background is written. Numerical Minimisation is poorly documented and the extensions have to expanded to all systems. \\
+
+
+07. April - 12. April  \hspace{1cm} Finish Jaynes chapter \\
+
+13. April - 19. April  \hspace{1cm} Finish Background \\
+
+20. April - 26. April  \hspace{1cm} Reweight on U-Surface \\
+
+27. April - 03. Mai    \hspace{1cm} Include suggestes Changes \\
+
+04. Mai - 10. Mai    \hspace{1cm} Reweight on F-Surface \\
+
+11. Mai - 17. Mai    \hspace{1cm} Extension and Conclusion \\
+
+18. Mai - 21. Mai  \hspace{1cm} Numerical Minimisation  \\
+
+22. Mai - 31. Mai   \hspace{1cm} Include suggested Changes \\
+
+
+\end{document}

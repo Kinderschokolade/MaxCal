@@ -1,0 +1,49 @@
+% \documentclass[12pt]{report}
+% \usepackage[utf8]{inputenc}
+% \usepackage{amsmath}
+% \usepackage{amssymb}
+% \usepackage{graphicx}
+% \usepackage{placeins}
+% \usepackage{cite}
+% \usepackage{physics} 
+% \usepackage{mathrsfs} 
+% \usepackage{geometry}  
+% \usepackage{layouts} 
+% \usepackage{newfloat}
+% \usepackage{float}
+% 
+% \setlength{\parindent}{0em}
+% \setlength{\parskip}{1em}
+% 
+% 
+% %% Technical point floatstyle
+% \floatstyle{ruled}
+% \newfloat{Technical Point}{htbp}{lop}[chapter]
+% 
+% 
+% \begin{document}
+% 
+
+\addchap{Samenvatting}
+Dit proefschrift voegt een nieuwe element toe aan het bijzondere vakgebied van non-equilibrium steady states (NESS) reweighting van de dynamica. Het is gebaseerd op het principe van Jaynes' 'Maximum Caliber' (MC), een ensemble beschrijving van NESS door middel van globale balans en lokale entropie producties, dynamische informatie afkomstig van stochastische thermodynamica en grofkorrelige dynamica volgens een Markov aanname. De MC benadering is gekozen omdat het een krachtig instrument is voor niet-evenwichtsprocessen. Er werd aangetoond hoe herweging van relaties tussen evenwichtsensembles uit MC voortkomt en dit idee hebben we uitgebreid naar NESS. MC is een actueel onderwerp van discussie, en de grenzen van de zijn toepassingen op gebied van de niet-evenwichtsfysica zijn nog niet bepaald~\cite{ghosh2020maximum}.
+
+We hebben beschreven hoe globale of symmetrische beperkingen het systeem onvoldoende karakteriseert. Een evenwichtssysteem kan met succes worden beschreven door globale beperkingen omdat de toestand ervan globaal wordt gecontroleerd, \mbox{bij}voorbeeld door temperatuur of druk. Voor een NESS daarentegen speelt de  locatie een grote rol: Een systeem dat aan zijn grenzen wordt gedreven, gedraagt zich anders dan een systeem dat globaal wordt aangedreven. De lokale entropieproducties modelleren deze lokale effecten en de hoeveelheid warmte die aan het systeem wordt toegevoegd of eraan wordt onttrokken. Een globale balansvoorwaarde wordt toegevoegd als noodzakelijke conditie voor een NESS. Het vereist dat de geaccumuleerde waarschijnlijkheid die naar een enkele toestand stroomt gelijk is aan de waarschijnlijkheid om in die toestand te zijn. Dit relateert de dynamica aan de statische eigenschappen van het systeem en zorgt ervoor dat beide tijdsonafhankelijk zijn, zoals vereist voor een NESS. Hiernaast is het betrekken van antisymmetrische beperkingen essentieel voor de beschrijving van dissipatieve systemen~\cite{agozzino2019minimal}. We hebben aangetoond dat de combinaties van deze aannames ons in staat stelt om te herwegen tussen alle NESS'en, inclusief evenwichtssystemen.
+
+Deze keuze van beperkingen toonde het bestaan aan van een symmetrische invariant die informatie bevat over de niet-dissipatieve dynamica van het systeem. Dit helpt ons om betere inzichten te verkrijgen in de NESS-processen en de herwegingsprocedure zelf. Het bevat de niet-dissipatieve bijdrage aan de dynamica die wordt ontleend aan de referentiedata.  We hopen op een beter begrip van de invariant en zijn relatie tot de niet-dissipatieve dynamica met een beschikbare volledige oplossing voor de MC-maximalisatie. Vanuit een technisch oogpunt kan het bemonsteren van de invariant worden gebruikt om de aanpak uit te breiden naar een geavanceerde bemonsteringsmethode voor de dynamica. Verschillende systemen kunnen worden berekend bij verschillende thermodynamische toestanden. Zo kunnen bijvoorbeeld kunstmatige krachten van verschillende sterkte worden toegevoegd voor een betere bemonstering van een overgang. Alle data kan worden gecombineerd in de invariant, mogelijk door het wegen van de data volgens de lokale kwaliteit van de bemonstering, vergelijkbaar met de weighted histogram-analyse methode~\cite{kumar1995multidimensional}. 
+
+De dynamica verkregen uit stochastische thermodynamica wordt beschreven door Markov State Models (MSM) om de enorme trajectruimte van complexe systemen te controleren en de herweging zo efficiënt mogelijk uit te voeren. Een MC formulering op de trajectruimte is mogelijk, maar vereist meer bemonsterde gegevens en meer rekenkracht door de grotere werkruimte. De Markov aanname verdeelt trajecten in kleine delen en bundelt ze tot een set van trajecten tussen twee microtoestanden. Uit deze delen worden nieuwe trajecten geconstrueerd, mogelijk trajecten die niet bestaan in de referentiesimulatie. In ruil voor deze verkleining van de te bemonsterde ruimte, vereist de MSM enige kennis van het systeem, bijvoorbeeld de collectieve variabelen (CV) die op de juiste manier gekozen moeten worden om de dynamica van de langzame processen te beschrijven. Wij raden aan om microtoestanden fijn genoeg te discretiseren om mogelijke overgangen tussen microstaten te beschrijven met een ruimtelijk niet-splitsende set van paden. Een trajectanalyse van de referentiegegevens laat zien of de microstaten voldoende klein gekozen zijn door unimodale verdelingen te tonen. 
+
+De MC benadering bleek van toepassing te zijn zowel op systemen in de volledige conforme ruimte als op systemen die door CV's worden beschreven. De herwegingsprocedure werkt even goed omdat de maximalisatie alleen gegevens aanpast die significant zijn voor de gekozen set van beperkingen. De entropiemaximalisatie selecteert de verdeling met de grootste onzekerheid, zodat informatie die niet wordt gebruikt in termen van beperkingen ongewijzigd \mbox{blijft}. Informatie die significant is voor de beperkingen wordt aangepast, maar het MC principe kiest de posterior om zo \mbox{vrij}blijvend mogelijk te zijn. Het toepassen van MC op de volledige conformatieruimte impliceert het gebruik van gegevens die niet nodig zijn om lokale entropieproducties te berekenen. Deze gegevens blijven hetzelfde omdat er geen nieuwe informatie in de vorm van beperkingen wordt verstrekt en de MC-maximalisatie hetzelfde antwoord oplevert. Deze eigenschap wordt gebruikt om onbekende collectieve variabelen te vinden voor een systeem~\cite{smith2018multi, tiwary2016spectral}. 
+
+
+De herwegingsprocedure die hier gepresenteerd wordt is bedoeld om de krachten langs de CV's van de MSM's te herwegen. Voor de herweging van de krachten is het nodig dat de onderliggende vrije energiebarrières groter zijn dan de thermische fluctuaties, d.w.z. $k_{\mathrm{B}} T < \Delta U$ en temperatuurherweging is niet mogelijk.  Beide types worden gedomineerd door het veranderen van de niet-dissipatieve dynamica, wat een symmetrische set van beperkingen vereist. Het zou interessant zijn om deze beperkingen te identificeren en de relatie te bepalen met de anti-symmetrische beperkingen die in dit proefschrift worden gebruikt. Dit zou de herwegingsprocedure openstellen voor temperatuurherweging door symmetrische beperkingen en voor temperatuurgradiënten die beschreven zouden moeten worden door een mix van symmetrische en antisymmetrische beperkingen of zonder symmetrie.  Herwegingsmethoden in het algemeen worden beperkt door de kwaliteit van de referentiedata omdat men niet weet in welke thermodynamische toestand de data onvoldoende zijn~\cite{warren2018trajectory}. Toch hebben we voor verschillende systemen laten zien dat herweging werkt op een breed scala aan lokale en globale krachten. Onze herweging wordt toegepast op ruimtelijk \mbox{korte} trajectovergangen tussen microtoestanden door gebruik te maken van de Markov aanname. We profiteren van het feit dat korte trajecten gemakkelijk te bemonsteren zijn en dat ze, in tegenstelling tot lange trajecten, eerder van belang zijn in het doelsysteem. 
+
+Het kleine aantal methoden dat nu beschikbaar is, toont aan met welke problemen men te maken heeft bij niet-evenwichtssystemen. Toch toonde het proefschrift aan dat MC een krachtig instrument is om dergelijke systemen te begrijpen en te \mbox{ana}lyseren. De gebruikte modellen zijn klein in vergelijking met complexe systemen die gebruik maken van het volledige scala aan rekenfaciliteiten dat vandaag de dag beschikbaar is. Het proefschrift moet worden gezien als een proof of concept voor het herwegen van de dynamica in NESS. De huidige MSM's zijn gebouwd voor systemen variërend van peptiden tot eiwitten, RNA en DNA. De formulering in MSM's zal naar verwachting de herwegingsmethode opschalen naar dergelijke complexe systemen~\cite{schutte2015critical}.
+ 
+De methode heeft een grote verscheidenheid aan mogelijke toepassingen. We hebben uitgelegd hoe het een manier biedt om verbeterde bemonstering uit te voeren voor de dynamica van complexe systemen in NESS, bijvoorbeeld moleculaire motoren~\cite{schliwa2003molecular} of biologische schakelaars~\cite{goldbeter1997biochemical}. Dit maakt het mogelijk om de dynamica van complexere systemen te bemonsteren zonder het systeem te beperken tot de evenwichtstoestand. Men kan het ook gebruiken om details van een bestaand model te veranderen: hoe verandert de dynamica als een interactie anders wordt gekozen? Dit levert informatie op om grofkorrelige modellen te verbeteren die niet de gewenste dynamische eigenschappen vertonen.  Een vergelijkbare herweging voor grofkorrelige systemen is geïntroduceerd door Shell et al., gebaseerd op referentie all-atomistische gegevens~\cite{chaimovich2010relative}. Verder hebben we besproken hoe de uitkomst van experimenten zoals optische pincetten, mechanisch slepen of het activeren van een moleculaire draaimotor kan worden voorspeld. Meer toepassingen met dynamische data uit experimenten zijn mogelijk, de methode vereist alleen referentiedata op relevante CV's en een beschrijving van de toegepaste krachten of potentialen.
+  
+% 
+% \bibliography{/home/marius/PhD/Thesis/references.bib}
+% \bibliographystyle{plain}
+% \end{document}
+  

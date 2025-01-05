@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis.aux
+The style file: unsrt.bst
+Database file #1: references.bib
+Warning--empty journal in weber2017eigenvalues
+Warning--empty journal in weber2015g
+Warning--empty journal in deuflhard1998identification
+You've used 123 entries,
+            1791 wiz_defined-function locations,
+            1134 strings with 24074 characters,
+and the built_in function-call counts, 27713 in all, are:
+= -- 2511
+> -- 1110
+< -- 11
++ -- 424
+- -- 301
+* -- 2013
+:= -- 4413
+add.period$ -- 373
+call.type$ -- 123
+change.case$ -- 108
+chr.to.int$ -- 0
+cite$ -- 126
+duplicate$ -- 1173
+empty$ -- 2795
+format.name$ -- 301
+if$ -- 6088
+int.to.chr$ -- 0
+int.to.str$ -- 123
+missing$ -- 135
+newline$ -- 616
+num.names$ -- 123
+pop$ -- 273
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 459
+stack$ -- 0
+substring$ -- 2183
+swap$ -- 176
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 280
+width$ -- 126
+write$ -- 1334
+(There were 3 warnings)

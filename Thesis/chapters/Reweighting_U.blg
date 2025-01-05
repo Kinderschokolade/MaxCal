@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Reweighting_U.aux
+The style file: plain.bst
+Database file #1: /home/marius/PhD/Thesis/references.bib.bib
+You've used 6 entries,
+            2118 wiz_defined-function locations,
+            536 strings with 4998 characters,
+and the built_in function-call counts, 1753 in all, are:
+= -- 165
+> -- 75
+< -- 0
++ -- 30
+- -- 24
+* -- 118
+:= -- 306
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 27
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 69
+empty$ -- 149
+format.name$ -- 24
+if$ -- 358
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 9
+newline$ -- 33
+num.names$ -- 12
+pop$ -- 36
+preamble$ -- 1
+purify$ -- 24
+quote$ -- 0
+skip$ -- 40
+stack$ -- 0
+substring$ -- 104
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 18
+warning$ -- 0
+while$ -- 17
+width$ -- 7
+write$ -- 65

@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Jaynes.aux
+The style file: plain.bst
+Database file #1: /home/marius/PhD/Thesis/references.bib.bib
+Repeated entry---line 754 of file /home/marius/PhD/Thesis/references.bib.bib
+ : @book{flory1953principles
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 883 of file /home/marius/PhD/Thesis/references.bib.bib
+ : @article{dixit2018perspective
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1267 of file /home/marius/PhD/Thesis/references.bib.bib
+ : @book{gibbs1902elementary
+ :                          ,
+I'm skipping whatever remains of this entry
+You've used 26 entries,
+            2118 wiz_defined-function locations,
+            665 strings with 8236 characters,
+and the built_in function-call counts, 7766 in all, are:
+= -- 766
+> -- 316
+< -- 2
++ -- 131
+- -- 100
+* -- 534
+:= -- 1323
+add.period$ -- 78
+call.type$ -- 26
+change.case$ -- 123
+chr.to.int$ -- 0
+cite$ -- 26
+duplicate$ -- 297
+empty$ -- 649
+format.name$ -- 100
+if$ -- 1599
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 30
+newline$ -- 132
+num.names$ -- 52
+pop$ -- 124
+preamble$ -- 1
+purify$ -- 102
+quote$ -- 0
+skip$ -- 195
+stack$ -- 0
+substring$ -- 514
+swap$ -- 35
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 92
+warning$ -- 0
+while$ -- 82
+width$ -- 28
+write$ -- 281
+(There were 3 error messages)

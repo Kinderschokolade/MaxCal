@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Complementary.aux
+The style file: plain.bst
+Database file #1: /home/marius/PhD/Thesis/references.bib.bib
+Repeated entry---line 883 of file /home/marius/PhD/Thesis/references.bib.bib
+ : @article{dixit2018perspective
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 944 of file /home/marius/PhD/Thesis/references.bib.bib
+ : @article{donati2017girsanov
+ :                            ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
+You've used 12 entries,
+            2118 wiz_defined-function locations,
+            582 strings with 6141 characters,
+and the built_in function-call counts, 4032 in all, are:
+= -- 385
+> -- 208
+< -- 1
++ -- 82
+- -- 70
+* -- 316
+:= -- 701
+add.period$ -- 36
+call.type$ -- 12
+change.case$ -- 69
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 133
+empty$ -- 303
+format.name$ -- 70
+if$ -- 807
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 14
+newline$ -- 63
+num.names$ -- 24
+pop$ -- 60
+preamble$ -- 1
+purify$ -- 59
+quote$ -- 0
+skip$ -- 86
+stack$ -- 0
+substring$ -- 266
+swap$ -- 13
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 0
+while$ -- 38
+width$ -- 14
+write$ -- 132
+(There were 2 error messages)

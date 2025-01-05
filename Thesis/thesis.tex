@@ -1,0 +1,125 @@
+\documentclass[paper=a4,fontsize=12pt,open=right,noabbrev]{nadisser}[2018/07/09]
+\usepackage[sort&compress,numbers]{natbib}
+\usepackage{xcolor}
+\usepackage{lipsum}
+\usepackage{todo}
+%\usepackage[hide]{todo}
+\usepackage{xspace}
+\usepackage{suffix}
+\usepackage{xifthen}
+\usepackage[utf8x]{inputenc}
+%\usepackage[T1]{fontenc}
+%\usepackage{siunitx}
+\usepackage[export]{adjustbox}
+\usepackage{breqn}
+\usepackage{csquotes}
+\usepackage{subfig}
+\usepackage{booktabs}
+\usepackage{abstract}
+\usepackage{physics}
+\usepackage{amsmath,amsfonts,amsthm}
+\usepackage{mathrsfs}
+\usepackage{geometry}
+\usepackage{layouts}
+\usepackage{newfloat}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{bm}
+\usepackage{csquotes}
+\usepackage{placeins}
+\usepackage{babel}
+%\usepackage{hyperref}
+
+\newenvironment{newenv}[1]
+   {\renewcommand{\abstractname}{#1}\begin{abstract}}
+   {\end{abstract}}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+
+
+\lstset{language=Python,basicstyle={\ttfamily }}
+
+%% Technical point floatstyle
+\floatstyle{ruled}
+\newfloat{Technical Point}{htbp}{lop}[chapter]
+
+\newcommand*\diff{\mathop{}\!\mathrm{d}}
+
+\graphicspath{{images/}{plots/}}
+
+\input{commands/abbrv}
+
+\begin{document}
+
+\renewcommand{\thepage}{}
+%\renewcommand{\thepage}{\roman{page}}
+
+
+
+\input{config/docinfo}
+\maketitle
+
+\cleardoublepage
+\input{specialchapters/abstract.tex}
+%\input{specialchapters/dutch-abstract.tex} 
+
+\cleardoublepage 
+\input{specialchapters/acknowledgement.tex}
+
+\begin{center}
+\hspace*{1.5cm}
+ \includegraphics[scale = 0.14]{images/Transparent-Logo_Material_Science_Mz.png}
+\hspace*{\fill}
+ \includegraphics[scale = 0.06]{images/mpip.jpg}
+\hspace*{1.5cm} 
+ \end{center}
+
+This work was supported by the Graduate School of Excellence Materials Science in Mainz (MAINZ) and the Max Planck Institute for Polymer Research in Mainz.
+\cleardoublepage
+
+
+% \addcontentsline{toc}{chapter}{Contents} 
+\pdfbookmark[1]{\contentsname}{toc}
+\tableofcontents
+\pagenumbering{gobble}
+\cleardoublepage\quad 
+  
+%\newpage 
+\renewcommand{\thepage}{\arabic{page}} 
+\setcounter{page}{-1}
+\thispagestyle{empty}
+\input{chapters/chapters}  
+
+
+\input{chapters/summary_dutch}
+  
+
+\cleardoublepage 
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures} 
+
+\listoffigures 
+\cleardoublepage 
+%\setcounter{page}{113}
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Technical Points}  
+\listof{Technical Point}{List of Technical Points}
+ 
+
+%\cleardoublepage 
+%\input{specialchapters/acknowledgement.tex}
+
+\cleardoublepage 
+\phantomsection  
+\addcontentsline{toc}{chapter}{Bibliography} 
+
+\bibliographystyle{unsrt}
+\bibliography{references}   
+
+\todos 
+
+\end{document}
+\grid
+

@@ -1,0 +1,49 @@
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces An example potential for a driven particle with periodic boundary conditions.}}{17}{figure.caption.2}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Two slowest timescales for the 1D driven system depending on lagtime.}}{21}{figure.caption.4}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Chapman-Kolmogorov test for the metastable states for the 1D driven system.}}{21}{figure.caption.5}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces (a) Probability distribution for the equilibrium system with metastable states identified by PCCA+. (b) First and second eigenvector $\Psi _i$ representing the probability flow during relaxation process. \relax }}{23}{figure.caption.6}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Mean first-passage time depending on the lagtime $\tau $ for all six observed processes for the 1D system.}}{25}{figure.caption.7}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces First-passage time distribution of process from metastable state $B$ to $A$ at different lagtimes.}}{26}{figure.caption.8}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Equilibrium-reweighted energy distribution of the interacting self-avoiding walk.}}{34}{figure.caption.9}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Illustration of symmetric and asymmetric observables under time reversal and space inversion. }}{39}{figure.caption.10}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Stationary distribution and first-passage time distribution for the driven 1D system reweighted with respect to global entropy production.}}{42}{figure.caption.12}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Stationary distribution and first-passage time distribution for the driven 1D system reweighted with respect to local entropy production.}}{44}{figure.caption.14}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Transition probability matrix of the 1D driven system and the violation of detailed balance.}}{46}{figure.caption.16}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Stationary distribution and first-passage time distribution for the driven 1D system reweighted with respect to local entropy production and global balance.}}{47}{figure.caption.17}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Deviation of constraints when attempting to find a full solution to the Caliber maximisation by numerical minimisation.}}{51}{figure.caption.20}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Potential surface, stationary distribution and first-passage time distribution of a chosen process for the 1D equilibrium system}}{54}{figure.caption.21}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The first three moments and the population of metastable states for the equilibrium system under varying tilt of the potential.}}{56}{figure.caption.22}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Potential surface, stationary distribution and first-passage time distribution of a chosen process for the 1D driven system}}{57}{figure.caption.23}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces First-passage time distribution of transition $C\rightarrow A$ simulated at 3 different driving forces for the 1D driven system.}}{58}{figure.caption.24}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The first three moments and the population of metastable states for the 1D driven system for varying external force.}}{60}{figure.caption.25}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Sketch of a 4-state laser model with potential surface and pumping force.}}{61}{figure.caption.26}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Stationary distribution and first-passage time distribution of the excitation process for the laser model.}}{62}{figure.caption.27}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces The first three moments and the population of metastable states for the laser system for varying external force.}}{65}{figure.caption.28}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Potential surface, stationary distribution and first-passage time distribution of a chosen process for the 2D driven system}}{67}{figure.caption.29}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces The first three moments and the population of metastable states for the 2D system for varying external force.}}{68}{figure.caption.30}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces First-passage time distribution of transition $A \rightarrow B$ simulated at 3 different driving forces for the 2 system.}}{69}{figure.caption.31}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Free energy surface, stationary distribution and first-passage time distribution of a chosen process for the 1D reduced system}}{77}{figure.caption.32}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The first three moments and the population of metastable states for the reduced 1D system for varying driving forces.}}{79}{figure.caption.33}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces First-passage time distribution of transition $A \rightarrow B$ simulated at three different driving forces for the 2D and the reduced model. }}{80}{figure.caption.34}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Atomistic and coarse-grained representation of the tetraalanine peptide.}}{82}{figure.caption.35}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Free energy surface and lagtime analysis for the two slowest processes of the reference tetraalanine peptide.}}{82}{figure.caption.36}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Detailed relaxation process analysis of the two slowest processes of the tetraalanine peptide reference model and modified by an end-to-end potential.}}{84}{figure.caption.37}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The first three moments, the population of metastable states and the first two timescales for the tetraalanine peptide for varying driving along the end-to-end distance.}}{86}{figure.caption.38}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Stationary distribution and first-passage time distribution of a chosen process for tetraalanine peptide driven along the dihedral angle.}}{88}{figure.caption.39}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces The first three moments and the population of metastable states for the tetraalanine peptide for varying driving along the dihedral angle.}}{89}{figure.caption.40}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Transition matrices of chosen initial point for the tetraalanine peptide reference model and a model driven along the dihedral angle. }}{90}{figure.caption.41}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The dynamical invariant of the 1D driven system.}}{95}{figure.caption.42}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Two example trajectories from simulation of the 2D system between two microstates.}}{97}{figure.caption.43}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Distribution of entropy productions for the single particle in 1D potential and single particle in 2D potential for chosen transitions. }}{98}{figure.caption.44}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Deviation of local entropy production between analytic solution and averaging over simulated trajectories for (a) a single particle on a 1D potential surface and (b) a single particle on a 2D potential surface for a chosen starting point.}}{99}{figure.caption.45}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

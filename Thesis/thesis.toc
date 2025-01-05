@@ -1,0 +1,53 @@
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Background}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Statistical Mechanics}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Density of States}{5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Ensemble Averages}{6}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Molecular Dynamics}{7}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Stochastic Thermodynamics}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Transfer Operator}{12}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Markov Processes}{13}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Non-Equilibrium Steady States}{14}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Driven Particle in a periodic Potential}{16}{subsection.2.2.4}
+\contentsline {subsubsection}{\nonumberline Entropy Production}{17}{section*.3}
+\contentsline {section}{\numberline {2.3}Markov State Model}{18}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Validate Markovian Process}{19}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Identifying metastable states}{22}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}First-Passage-Time Distribution}{24}{subsection.2.3.3}
+\contentsline {chapter}{\numberline {3}Jaynes Maximum Caliber}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Requirement for uncertainty measures and inference methods}{30}{section.3.1}
+\contentsline {section}{\numberline {3.2}Reweighting in Equilibrium}{31}{section.3.2}
+\contentsline {section}{\numberline {3.3}Reweighting in Off-Equilibrium}{34}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Theory of Constraints}{38}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Application of Constraints}{40}{subsection.3.3.2}
+\contentsline {subsubsection}{\nonumberline Global Entropy Production}{41}{section*.11}
+\contentsline {subsubsection}{\nonumberline Local Entropy Production}{42}{section*.13}
+\contentsline {subsubsection}{\nonumberline Local Entropy Production and Global Balance}{44}{section*.15}
+\contentsline {subsection}{\numberline {3.3.3}Invariant Measure}{48}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Numerical Maximisation}{49}{subsection.3.3.4}
+\contentsline {subsubsection}{\nonumberline 0th Order Expansion}{49}{section*.18}
+\contentsline {subsubsection}{\nonumberline Full Solution}{50}{section*.19}
+\contentsline {chapter}{\numberline {4}Reweighting Dynamics in full Conformational Space}{53}{chapter.4}
+\contentsline {section}{\numberline {4.1}Single Particle in 1D Potential Well}{54}{section.4.1}
+\contentsline {section}{\numberline {4.2}Single Particle in 1D under Global Driving}{57}{section.4.2}
+\contentsline {section}{\numberline {4.3}Single Particle in 1D under Local Driving}{61}{section.4.3}
+\contentsline {section}{\numberline {4.4}Single Particle in 2D under Global Driving}{66}{section.4.4}
+\contentsline {section}{\numberline {4.5}Discussion}{70}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Sources of Error}{71}{subsection.4.5.1}
+\contentsline {chapter}{\numberline {5}Reweighting Dynamics by Collective Variables}{75}{chapter.5}
+\contentsline {section}{\numberline {5.1}Single Particle in Collective Variable Space}{76}{section.5.1}
+\contentsline {section}{\numberline {5.2}Tetraalanine}{81}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Modifying End-to-end Potential}{83}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Driving along Dihedral Angle}{87}{subsection.5.2.2}
+\contentsline {chapter}{\numberline {6}Complementary Aspects}{93}{chapter.6}
+\contentsline {section}{\numberline {6.1}Invariant Quantity}{94}{section.6.1}
+\contentsline {section}{\numberline {6.2}Trajectory Analysis}{96}{section.6.2}
+\contentsline {section}{\numberline {6.3}Off-Equilibrium Reweighting in Literature}{100}{section.6.3}
+\contentsline {chapter}{\numberline {7}Summary}{103}{chapter.7}
+\contentsline {chapter}{\nonumberline Samenvatting}{107}{chapter*.46}
+\contentsline {chapter}{List of Figures}{111}{section*.47}
+\contentsline {chapter}{List of Technical Points}{115}{section*.49}
+\contentsline {chapter}{Bibliography}{117}{section*.51}

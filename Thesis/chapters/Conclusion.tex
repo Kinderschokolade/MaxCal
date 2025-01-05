@@ -1,0 +1,47 @@
+% \documentclass[12pt]{report}
+% \usepackage[utf8]{inputenc}
+% \usepackage{amsmath}
+% \usepackage{amssymb}
+% \usepackage{graphicx}
+% \usepackage{placeins}
+% \usepackage{cite}
+% \usepackage{physics} 
+% \usepackage{mathrsfs} 
+% \usepackage{geometry}  
+% \usepackage{layouts} 
+% \usepackage{newfloat}
+% \usepackage{float}
+% 
+% \setlength{\parindent}{0em}
+% \setlength{\parskip}{1em}
+% 
+% 
+% % Technical point floatstyle
+% \floatstyle{ruled}
+% \newfloat{Technical Point}{htbp}{lop}[chapter]
+% 
+% 
+% \begin{document}
+% 
+
+\chapter{Summary}
+The present thesis adds a new option for the sparse field of non-equilibrium steady states (NESS) reweighting of dynamics. It is built on the basis of Jaynes Maximum Caliber, an ensemble description of NESS by global balance an local entropy productions, dynamical information drawn from stochastic thermodynamics and coarse-grained dynamics by a Markovian assumption. The Maximum Caliber approach was chosen as it is a powerful tool for non-equilibrium processes. It was shown how reweighting relations between equilibrium ensembles emerge from the Caliber and we extended this idea to NESS. In fact the Caliber is under great discussion and its boundaries in the field of non-equilibrium physics are not yet determined~\cite{ghosh2020maximum}. 
+
+We discussed how global or symmetric constraints describe the system inadequately. An equilibrium system can successfully be described by global constraints because its state is controlled globally, for instance by temperature or pressure. For a NESS on the other hand, the locality plays a major role: A system driven at its boundaries behaves differently from a system driven globally. The local entropy productions model these local effects and the amount of heat inserted to or withdrawn to or from the system. A global balance condition is added as a necessary condition for a NESS. It demands that the summed probability flows to a single state equals the probability of being in that state. This relates the dynamics to the statics of the system and ensures both to be time-independent, as required for a NESS. Furthermore, including  antisymmetric constraints are essential for the description of dissipative systems~\cite{agozzino2019minimal}.  We have shown that the combinations of these assumptions allow us to reweight between any NESS, including equilibrium systems.
+
+This choice of constraints showed the existence of a symmetric invariant that contains information about the non-dissipative dynamics of the system. This quantity helps us to get a deeper understanding of NESS processes and the reweighting procedure itself. It contains the non-dissipative contribution to the dynamics that are drawn from the reference data.  We hope for deeper insight on the invariant and its relation to non-dissipative dynamics with an available full solution to the Maximum Caliber maximisation. From a technical point of view, sampling the invariant can be used to extend to an advanced sampling method for dynamics. Several systems can be computed at different thermodynamic states. For instance, artificial forces of varying strength can be added for improved sampling of a transition. All data can be combined in the invariant, possibly by weighting the data according to the local quality  of sampling, similar to weighted-histogram analysis method~\cite{kumar1995multidimensional}. 
+
+The dynamics drawn form stochastic thermodynamics are described by Markov State Models (MSM) to control the enormous trajectory space of complex systems and perform the reweighting as efficiently as possible. A Maximum Caliber formulation on the trajectory space is possible but requires more sampled data and more computational resources due to the larger operating space. The Markovian assumption divides trajectories in small pieces and bundles them to a set of trajectories between two microstates. New trajectories are constructed from these pieces, possibly trajectories that are not existent in the reference simulation. In exchange for this reduction of space to sample, the MSM requires some knowledge of the system, for instance the collective variables (CV) have to be chosen appropriately to describe the dynamics of the slow processes. We recommend to discretise microstates fine enough to describe possible transitions between microstates by a spatially non-forking set of pathways. A trajectory analysis on the reference data reveals if the microstates are chosen sufficiently small by showing unimodal distributions. 
+
+The Maximum Caliber approach was shown to apply to both, systems in full conformational space and systems described by CVs. The reweighting procedure works equally well because the maximisation only adjusts data that is significant for the chosen set of constraints. The entropy maximisation selects the distribution with the largest amount of uncertainty, so information that is not used in terms of constraints remain unchanged. Information significant to the constraints are adjusted, but the Calibers principle chooses the posterior to be as noncommittal as possible. Applying the Caliber to the full conformational space implies using data that is not needed to calculate local entropy productions. This data remains the same because no new information in form of constraints is provided and the Caliber maximisation produces the same answer. This property is used to find unknown collective variables for a system~\cite{smith2018multi, tiwary2016spectral}. 
+
+The reweighting procedure in the presented form is designed to reweight with respect to forces along the CVs of the MSMs. Force-reweighting requires the underlying free energy barriers to be larger than the thermal fluctuations, i.e. $k_{\mathrm{B}} T < \Delta U$ and temperature reweighting is not possible.  Both types are  dominated by changing the non-dissipative dynamics, requiring a symmetric set of constraints. It would be of interest to identify these constraints and determine the relation to the anti-symmetric constraints used in this thesis. This would open up the reweighting procedure to temperature reweighting by symmetric constraints and to temperature gradients that should be described by a mix of symmetric and antisymmetric constraints or with no symmetry.  Reweighting methods in general are limited by the quality of the reference data since one does not know at what thermodynamic state the data are insufficient~\cite{warren2018trajectory}. Yet, we showed on several systems that reweighting works over a broad range of local and global forces. Our reweighting is applied to spatially short trajectories transitioning between microstates by use of the Markovian assumption. We benefit from short trajectories being easy to sample and more likely to be of importance in the target system, unlike long trajectories.
+
+The small number of methods available as of now demonstrates the difficulties one is facing when dealing with off-equilibrium systems. Yet, the thesis showed that the Maximum Caliber is a powerful tool for understanding and analysing such systems. The presented models are small compared to complex systems exploiting the full range of computational resources available today. The thesis should be seen as a proof of concept for reweighting dynamics in NESS. Current MSMs are built for systems ranging from peptides to proteins, RNA and DNA~\cite{schutte2015critical} and the formulation in MSMs is expected to scale the reweighting method to such complex systems.
+ 
+The method has a wide variety of possible application. We explained how it offers a way to perform enhanced sampling for dynamics of complex systems in NESS, e.g. molecular motors~\cite{schliwa2003molecular} or biological switches~\cite{goldbeter1997biochemical}. This allows to sample dynamics of more complex system without constraining the system to equilibrium. One might also use it to change details of an existing model: How does the dynamics change if an interaction is chosen differently? This provides information to improve coarse-grained models that do not show desired dynamic properties.  A comparable reweighting approach for coarse-graining systems was introduced by Shell et al., based on reference all-atomistic data~\cite{chaimovich2010relative}.  Furthermore, we discussed how the outcome of experiments like optical tweezers, mechanical dragging or activating a molecular rotary motor can be predicted. More applications on dynamical data from experiments are possible, the method only requires reference data on relevant CVs and a description of the forces or potentials applied. 
+% 
+%  
+% \bibliography{/home/marius/PhD/Thesis/references.bib}
+% \bibliographystyle{plain}
+% \end{document}

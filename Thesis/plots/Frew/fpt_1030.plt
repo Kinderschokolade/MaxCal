@@ -1,0 +1,48 @@
+reset
+
+set terminal cairo size 14cm,6cm standalone color colortext header \
+   "\\renewcommand\\familydefault{\\sfdefault}\\usepackage{cmbright}"
+
+set output "fpt_1030.tex"
+
+set style line 2 lc rgb '#0060ad' lt 1 lw 5 pt 5 ps 0.5   #  blue
+set style line 3 lc rgb '#dd181f' lt 1 lw 5 pt 7 ps .5   # red
+set style line 4 lc rgb '#66A61E' lt 1 lw 5 pt 9 ps .5   #  green
+set style line 6 lc rgb '#ff8800' lt 1 lw 5 pt 11 ps .5   #  orange
+set style line 7 lc rgb '#9FAFDF' lt 1 lw 5 pt 13 ps 0.5   #royal blue
+set style line 8 lc rgb '#1E90FF' lt 1 lw 5 pt 6 ps 0.5   #  slate blue
+set style line 1 lc rgb '#F897C5' lt 1 lw 5 pt 8 ps 0.5   # taffy
+set style line 5 lc rgb 'black' lt 1 lw 5 pt 10 ps 0.5   # black
+set style line 9 lc rgb '#f1c40f' lt 1 lw 5 pt 12 ps 0.5   #yellow
+
+
+set format x2 
+
+set multiplot
+set origin 0.0,0.0
+set size 0.6,1
+
+set ylabel "$p_{\\; \\textrm{FPT}}$" 
+set xlabel "$t / \\tau$"
+
+
+set xtics 0.2
+set ytics 0.01
+
+#set yrange [0:0.008]
+
+set logscale x
+
+set key at screen 0.88,0.48
+
+set ytics 0.03
+set xrange[1:100]
+set xtics 1,10,100
+
+plot "../../data/Frew/markovana_5010.dat" u 0:2 w l ls 2 dt 2 title "2D$: f=0~\\epsilon / \\mathcal{L}$" ,\
+"../../data/Frew/markovana_1030.dat" u 0:2 w l ls 2 title "1D$: f=0~\\epsilon / \\mathcal{L}$" ,\
+"../../data/Frew/markovana_5410.dat" u 0:2 w l ls 3 dt 2 title "2D$: f=4~\\epsilon / \\mathcal{L}$" ,\
+"../../data/Frew/markovana_1430.dat" u 0:2 w l ls 3 title "1D$: f=4~\\epsilon / \\mathcal{L}$" ,\
+"../../data/Frew/markovana_5910.dat" u 0:2 w l ls 4 dt 2 title "2D$: f=9~\\epsilon / \\mathcal{L}$",\
+"../../data/Frew/markovana_1930.dat" u 0:2 w l ls 4 title "1D$: f=9~\\epsilon / \\mathcal{L}$" 
+
