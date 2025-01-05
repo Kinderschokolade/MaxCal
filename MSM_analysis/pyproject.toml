@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "msm-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Marius Bause <mariusbause@gmx.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+isort = "^5.13.2"
+flake8 = "^7.1.1"
+pylint = "^3.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 120
+target-version = ["py39"]
+exclude = '''
+/(
+    \.eggs         # exclude Python eggs
+  | \.git          # exclude Git directory
+  | \.hg           # exclude Mercurial directory
+  | \.mypy_cache   # exclude mypy cache
+  | \.tox          # exclude tox environments
+  | \.venv         # exclude virtual environments
+  | build          # exclude build directory
+  | dist           # exclude distribution directory
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+
+[settings]
+profile = "black"
+line-length = 120
+
+
+[flake8]
+max-line-length = 120
+exclude = ".venv,build,dist"
+
